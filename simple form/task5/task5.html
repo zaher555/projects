@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/task5.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="balls">
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+        </div>
+        <form>
+            <div class="user-inputs">
+                <label>Name</label><input type="text" id="name">
+                <span id="nameerror" class="input">name is required</span>
+                <label>Email</label><input type="email" id="email">
+                <span id="emailerror" class="input">email is required</span>
+                <label>password</label><input type="password" id="password">
+                <span id="passworderror" class="input">password is required</span>
+            </div>
+            <div class="radio">
+                <span>Gender</span>
+                <input type="radio" name="male" id="male" class="radio-button"><label>male</label>
+                <input type="radio" name="male" id="female" class="radio-button"><label>female</label>
+                <span id="gendererror" class="input">please select your Gender</span>
+            </div>
+            <div class="check-inputs">
+                <span>Sports</span>
+                <input type="checkbox" value="tennis" name="tennis" class="check"><label>tennis</label>
+                <input type="checkbox" value="running" name="running" class="check"><label>running</label>
+                <input type="checkbox" value="football" name="football" class="check"><label>football</label>
+                <span id="sporterror" class="input">please select at least 2 sports</span>
+            </div>
+            <div class="country">
+                <span>country</span>
+                <select id="country">
+                    <option value="0"></option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Saudi">Saudi Arabia</option>
+                    <option value="Emarites">Emarites</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Jordan">Jordan</option>
+                </select>
+                <span id="countryerror" class="input">please select your country</span>
+            </div>
+            <div class="buttons">
+                <input type="submit" value="submit" onclick="submitFunc()">
+                <input type="button" value="reset" onclick="emptyForm()">
+            </div>
+        </form>
+    </div>
+        <script src="js/task51.js"></script>
+        <script src="js/task52.js"></script>
+</body>
+
+</html>

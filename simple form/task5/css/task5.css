@@ -1,0 +1,160 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #174960;
+}
+.container
+{
+    width: 50%;
+    margin: auto;
+}
+.container .balls
+{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.container  .ball
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #dbdbdb;
+} 
+/************************************************************************************************************************************************************/
+.container form
+{
+    width: 100%;
+    padding: 19px;
+}
+.container form .user-inputs
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.container form .user-inputs label
+{
+    width: 23%;
+    display: inline-block;
+    font-size: 46px;
+    font-family: sans-serif;
+    color: white;
+}
+.container form .user-inputs input
+{
+    width: 73%;
+    height: 70px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+.container form .radio
+{
+    width: 100%;
+}
+.container form .radio span
+{
+    font-size: 45px;
+    padding-right: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.container form .radio input
+{
+    width: 50px;
+}
+.container form .radio label
+{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.container form .check-inputs
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.container form .check-inputs span
+{
+    font-size: 45px;
+    padding-right: 81px;
+    font-family: sans-serif;
+    color: white;
+}
+.container form .check-inputs label
+{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.container form .country
+{
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 25px;
+}
+.container form .country span
+{
+    font-size: 45px;
+    padding-right: 74px;
+    font-family: sans-serif;
+    color: white;
+}
+.container form .country select
+{
+    width: 71%;
+    height: 60px;
+    border-radius: 10px;
+}
+.container form .buttons
+{
+    display: flex;
+    justify-content: end;
+    margin-top: 65px;
+    gap: 15px;
+    margin-right: 35px;
+}
+.container form .buttons input
+{
+    color: white;
+    padding: 16px 56px;
+    border: none;
+    outline: none;
+    font-size: 27px;
+    border-radius: 10px;
+}
+.container form .buttons input:first-of-type
+{
+    background-color: green;
+}
+.container form .buttons input:last-of-type
+{
+    background-color: red;
+}
+span.input
+{
+    color: red !important;
+    font-size: 24px !important;
+    display: none;
+}
+.success
+{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+.success i
+{
+    font-size: 100px;
+}
