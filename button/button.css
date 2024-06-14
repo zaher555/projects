@@ -1,0 +1,65 @@
+button
+{
+    outline: none;
+    border: none;
+    display: block;
+    width: 15%;
+    border-radius: 20px;
+    margin: auto;
+    padding: 1%;
+    margin-top: 10%;
+}
+button:hover
+{
+    animation-name: colors;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes colors
+{
+    0%
+    {
+        box-shadow: 10px 10px 10px red,-10px -10px -10px red;
+    }
+    10%
+    {
+        box-shadow: 10px 10px 10px rgb(255, 57, 57),-10px -10px 10px rgb(255, 57, 57);
+    }
+    20%
+    {
+        box-shadow: 10px 10px 10px rgb(199, 83, 83),-10px -10px 10px rgb(199, 83, 83);
+    }
+    30%
+    {
+        box-shadow: 10px 10px 10px rgb(255, 251, 0),-10px -10px 10px rgb(255, 251, 0);
+    }
+    40%
+    {
+        box-shadow: 10px 10px 10px rgb(148, 218, 37),-10px -10px 10px rgb(148, 218, 37);
+    }
+    50%
+    {
+        box-shadow: 10px 10px 10px rgb(20, 164, 221),-10px -10px 10px rgb(20, 164, 221);
+    }
+    60%
+    {
+        box-shadow: 10px 10px 10px rgb(31, 207, 140),-10px -10px 10px rgb(31, 207, 140);
+    }
+    70%
+    {
+        box-shadow: 10px 10px 10px rgb(100, 121, 124),-10px -10px 10px rgb(100, 121, 124);
+    }
+    80%
+    {
+        box-shadow: 10px 10px 10px rgb(4, 0, 255),-10px -10px 10px rgb(4, 0, 255);
+    }
+    90%
+    {
+        box-shadow: 10px 10px 10px rgb(209, 18, 216),-10px -10px 10px rgb(209, 18, 216);
+    }
+    100%
+    {
+        box-shadow: 10px 10px 10px rgb(214, 75, 168),-10px -10px 10px rgb(214, 75, 168);
+    }
+}
