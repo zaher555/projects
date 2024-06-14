@@ -1,0 +1,827 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* start menu section */
+#menu-container
+{
+    background-color: white;
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 7px;
+    z-index: 3;
+    align-items: center;
+    margin-left: -8px;
+}
+
+#menu-section ul li{
+    display: inline-block;
+    width: 100px;
+    color: rgb(48, 48, 48);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+#contact-btn a{
+    background-color: rgb(19, 19, 251);
+    color: white;
+    font-weight: bold;
+    padding: 20px 50px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+}
+/* end menu section */
+
+/* start landing section */
+#landing-container
+{
+    top: 121px;
+    width: 100vw;
+    position: relative;
+}
+#landing-container .image
+{
+
+    position: relative;
+    z-index: 1;
+}
+#landing-container .details
+{
+    position: absolute;
+    left: 140px;
+    top: 50%;
+    z-index: 2;
+    width: 48%;
+    transform: translateY(-50%);
+    padding-bottom: 60px;
+}
+#landing-container .details span
+{
+    color: blue;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;  
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#landing-container .details span hr
+{
+    display: inline-block;
+    width: 50px;
+    color: blue;
+}
+#landing-container .details h1
+{
+    text-transform: capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 105px;
+    padding: 20px 0;
+}
+#landing-container .details p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px 0 100px;
+}
+#landing-container .details a
+{
+    background-color: rgb(1, 1, 77);
+    color: white;
+    font-weight: bold;
+    padding: 30px 60px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* end landing section */
+
+/* start practicing area  */
+#practicing-container
+{
+    padding: 235px 154px 160px;
+}
+#practicing-container span
+{
+    color: blue;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#practicing-container span hr
+{
+    display: inline-block;
+    width: 50px;
+    color: blue;
+}
+#practicing-container h1
+{
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    padding: 20px 0;
+}
+#practicing-container .cards
+{
+    display: flex;
+    padding-top: 40px;
+}
+#practicing-container .cards div
+{
+    border: 1px solid gainsboro;
+    margin: 0 10px;
+    padding: 60px 50px;
+}
+#practicing-container .cards div i
+{
+    color: rgb(19, 19, 251);
+    font-size: 45px;
+}
+#practicing-container .cards div h2
+{
+    padding: 35px 0 30px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#practicing-container .cards div p
+{
+    color: #535353;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+#practicing-container .cards div a
+{
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#practicing-container .cards div a i
+{
+    color: #535353;
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* end practicing area  */
+/* start about agency  */
+#about-agency-container
+{
+    display: flex;
+}
+#about-agency-container .image
+{
+    width: 40%;
+}
+#about-agency-container .image img
+{
+    height: 100%;
+}
+#about-agency-container .content
+{
+    width: 60%;
+    background-color: rgb(39, 94, 255);
+    padding: 75px 70px;
+}
+#about-agency-container .content span
+{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+}
+
+#about-agency-container .content span hr
+{
+    display: inline-block;
+    width: 50px;
+    color: white;
+}
+#about-agency-container .content h2
+{
+    text-transform: capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    padding: 20px 0 70px;
+    color: white;
+}
+#about-agency-container .content p
+{
+    font-size: 25px;
+}
+#about-agency-container .content p:first-of-type
+{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#about-agency-container .content p:last-of-type
+{
+    color: #c6c6c6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+#about-agency-container .content .link
+{
+    margin-top: 120px;
+}
+#about-agency-container .content .link a
+{
+    background-color: rgb(0, 0, 115);
+    color: white;
+    font-weight: bold;
+    padding: 30px 60px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* end about agency  */
+
+/* start form */
+#form-container
+{
+    background-color: gainsboro;
+}
+#form-container > div
+{
+    background-color: rgb(39, 94, 255);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 55px;
+    position: relative;
+    top: 127px;
+}
+#form-container div span
+{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+#form-container div h2
+{
+    color: white;
+    padding: 10px 0 62px 0;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#form-container div hr
+{
+    display: inline-block;
+    width: 50px;
+    color: white;
+}
+
+#form-container div form div
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#form-container div form div input
+{
+    width: 41.3%;
+    background-color: white;
+    border: none;
+    padding: 20px 30px;
+    outline: none;
+    margin-left: 3px;
+}
+#form-container div form div input::placeholder
+{
+    color: rgb(190, 190, 190);
+    text-transform: capitalize;
+
+}
+#form-container div form div select
+{
+    padding: 10px 10px 10px 30px;
+    width: 49%;
+    background-color: white;
+    border: none;
+    outline: none;
+    color: rgb(190, 190, 190);
+    text-transform: capitalize;
+}
+
+#form-container div form div input[type=email]
+{
+    margin-left: 2px;
+}
+#form-container div form div:last-of-type
+{
+    padding: 20px 0;
+}
+#form-container div form div textarea
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: rgb(190, 190, 190);
+    text-transform: capitalize;
+    padding-top: 24px;
+}
+#form-container div form input[type=submit]
+{
+    width: 100%;
+    background-color: rgb(0, 0, 115);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+/* end form  */
+/* start recent-work */
+#recent-work-container
+{
+    padding: 255px 152px;
+}
+#recent-work-container span
+{
+    color: blue;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+#recent-work-container span hr
+{
+    display: inline-block;
+    width: 50px;
+    color: blue;
+    height: 0px;
+}
+#recent-work-container .header
+{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+#recent-work-container .header h1
+{
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    padding: 20px 0 70px;
+}
+#recent-work-container .header ul
+{
+    display: flex;
+    gap: 45px;
+}
+#recent-work-container .header ul li
+{
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#recent-work-container .header ul li a.active
+{
+    color: blue;
+}
+#recent-work-container .cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 145px 0;
+}
+#recent-work-container .cards div
+{
+    width: 48%;
+}
+#recent-work-container .cards div .image
+{
+    width: 100%;
+}
+#recent-work-container .cards div .image img
+{
+    width: 100%;
+}
+#recent-work-container .cards div .details
+{
+    background-color: #f0f0f0;
+    width: 80%;
+    position: relative;
+    top: -53px;
+    padding: 20px 0 20px 40px;
+}
+#recent-work-container .cards div .details span
+{
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+#recent-work-container .cards div .details span:first-of-type
+{
+    color: blue;
+}
+#recent-work-container .cards div .details span:last-of-type
+{
+    color: black;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+#recent-work-container .cards div hr
+{
+    display: inline-block;
+    width: 50px;
+    color: blue;
+}
+#recent-work-container .cards div p span
+{
+
+}
+/* end recent-work */
+/* start conatact-now */
+#contact-now-container
+{
+    background-image: url('../images/im15.png');
+    display: flex;
+    justify-content: center;
+    gap: 67%;
+    padding: 67px 20px;
+    align-items: center;  
+}
+#contact-now-container h2
+{
+    font-size: 20px;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact-now-container a
+{
+    background-color: rgb(0, 0, 115);
+    color: white;
+    font-weight: bold;
+    padding: 30px 60px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* end contact-now */
+/* start lawers */
+#lawers-container
+{
+    padding: 115px 160px;
+}
+#lawers-container span
+{
+    color: blue;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+#lawers-container span hr
+{
+    display: inline-block;
+    width: 50px;
+    color: blue;
+    height: 0px;
+}
+#lawers-container > h2
+{
+    padding: 60px 0;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#lawers-container .cards
+{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+#lawers-container .cards .card
+{
+    background-color: #f7f7f7;
+    width: 32%;
+}
+#lawers-container .cards .card .image
+{
+    width: 100%;
+}
+#lawers-container .cards .card .image img
+{
+    width: 100%;
+}
+#lawers-container .cards .card .details
+{
+    padding: 20px 60px;
+}
+#lawers-container .cards .card .details h2
+{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#lawers-container .cards .card .details span
+{
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+#lawers-container .cards .card .details hr
+{
+    display: inline-block;
+    width: 50px;
+    color: blue;
+}
+/* end lawers */
+
+/* start quote */
+#quote-container
+{
+    background-image: url('../images/im11.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 145px 0;
+}
+#quote-container i.fa-angle-left
+{
+    color: #888;
+    border: 1px solid #888;   
+    border-radius: 10px;
+    padding: 15px;
+}
+#quote-container i.fa-angle-right
+{
+    color: #888;
+    border: 1px solid #888;
+    border-radius: 10px;
+    padding: 15px;
+}
+#quote-container > div 
+{
+    width: 79%;
+    text-align: center;
+}
+#quote-container > div i
+{
+    color: white;
+    font-size: 60px;
+}
+#quote-container > div > p
+{
+    color: #d7d7d7;
+    padding: 60px 0;
+}
+#quote-container > div > .authour
+{
+    width: 15%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+#quote-container > div .authour img
+{
+    width: 26%;
+    height: 100%;
+}
+#quote-container div > .authour div p:first-of-type
+{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 17px;
+}
+#quote-container div > .authour div p:last-of-type
+{
+    color: gray;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -20px;
+}
+/* end quote */
+
+/* start trends-article  */
+#trends-article-container
+{
+    padding: 142px 104px;
+}
+#trends-article-container span
+{
+    color: blue;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 58px;
+    display: flex;
+    align-items: center;
+}
+#trends-article-container span hr
+{
+    display: inline-block;
+    width: 50px;
+    color: blue;
+    height: 0px;
+}
+#trends-article-container h2
+{
+    padding: 60px 0;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin-left: 53px;
+}
+#trends-article-container .cards
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#trends-article-container .cards .card
+{
+    width: 46%;
+    background-color: #f9f9f9;
+    padding-bottom: 37px;
+}
+#trends-article-container .cards .card .image
+{
+    width: 100%;
+}
+#trends-article-container .cards .card .image img
+{
+    width: 100%;
+}
+#trends-article-container .cards .card .details 
+{
+    padding-left: 63px;
+    margin-top: -45px;
+}
+#trends-article-container .cards .card  .date
+{
+    background-color: #f2f2f2;
+    position: relative;
+    top: -69px;
+    width: 76%;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: capitalize;
+    color: #757575;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#trends-article-container .cards .card .details h3
+{
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 0;
+    font-size: 26px;
+}
+#trends-article-container .cards .card .details p
+{
+    color: #979797;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 0;
+}
+#trends-article-container .cards .card .details a
+{
+    color: blue;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+#trends-article-container .cards .card .details hr
+{
+    display: inline-block;
+    width: 50px;
+    color: blue;
+    height: 0px;
+}
+/* end trends-article  */
+/* start footer */
+#footer 
+{
+    background-image: url('../images/im14.jpg');
+    padding: 63px 72px;
+}
+#footer .informations
+{
+    display: flex;
+    color: white;
+    width: 100%;
+    padding-bottom: 120px;
+}
+#footer .informations div
+{
+    width: 25%;
+}
+
+#footer .informations div:first-of-type p
+{
+    color: #848484;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer .informations div:first-of-type p:nth-of-type(2) span
+{
+    color: white;
+}
+#footer .informations div:first-of-type p:nth-of-type(2)
+{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+#footer .informations div:nth-of-type(2) p,
+#footer .informations div:nth-of-type(3) p,
+#footer .informations div:last-of-type p:first-of-type
+{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#footer .informations div:last-of-type p:last-of-type
+{
+    color: #848484;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px 0;
+}
+#footer .informations div:nth-of-type(2) ul li,#footer .informations div:nth-of-type(3) ul li
+{
+    color: #848484;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0;
+}
+#footer .informations div input
+{
+    background-color: #202020;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    color: white;
+}
+#footer .informations div input::placeholder
+{
+    color: gainsboro;
+}
+#footer .informations div input[type=submit]
+{
+    color: blue;
+    padding: 15px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#footer .informations div p
+{
+    padding: 10px 0;
+}
+#footer .informations div ul li
+{
+    list-style: none;
+}
+#footer .social
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+}
+#footer .social ul
+{
+    display: flex;
+    gap: 15px;
+}
+#footer .social ul li
+{
+    list-style: none;
+}
+#footer .social p
+{
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#848484;
+    ;
+}
+#footer .social p i,#footer .social p span
+{
+    color: blue;
+
+}
+/* end footer */
