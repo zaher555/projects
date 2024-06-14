@@ -1,0 +1,58 @@
+img
+{
+    width: 400px;
+    height: 400px;
+}
+img:hover
+{
+    animation-name: disappear;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+}
+@keyframes disappear
+{
+    0%
+    {
+        opacity: 1;
+    }
+    10%
+    {
+        opacity: .9;
+    }
+    20%
+    {
+        opacity: .8;
+    }
+    30%
+    {
+        opacity: .7;
+    }
+    40%
+    {
+        opacity: .6;
+    }
+    50%
+    {
+        opacity: .5;
+    }
+    60%
+    {
+        opacity: .4;
+    }
+    70%
+    {
+        opacity: .3;
+    }
+    80%
+    {
+        opacity: .2;
+    }
+    90%
+    {
+        opacity: .1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
