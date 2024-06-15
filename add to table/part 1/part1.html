@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/part1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div>
+                <label>Name</label> <input type="text" placeholder="enter your name" id="nameInput">
+                <span id="nameInputError"></span>
+            </div>
+            <div>
+                <label>Age</label> <input type="text" placeholder="enter your age" id="ageInput">
+                <span id="ageInputError"></span>
+            </div>
+            <input type="button" onclick="addToTable()" value="add to table">
+        </form>
+        <table id="table">
+            <thead>
+                <th>id</th>
+                <th>name</th>
+                <th>age</th>
+                <th>action</th>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    <script src="js/part1.js"></script>
+</body>
+</html>
